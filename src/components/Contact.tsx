@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
 export default function Contact() {
   return (
     <section id="contact" className="relative py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center opacity-10"></div>
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-center">
           Me Contacter
@@ -158,7 +158,7 @@ export default function Contact() {
 
         <div className="mt-16 pt-8 border-t border-gray-700 text-center">
           <p className="text-gray-400">
-            © 2024 Mamadou THIAM. Tous droits réservés.
+            © 2025 Mamadou THIAM. Tous droits réservés.
           </p>
         </div>
       </div>

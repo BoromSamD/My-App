@@ -1,14 +1,14 @@
-import { Github, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import {Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-15"></div>
+      <div className="absolute inset-0 bg-[url('/public/assets/hero.jpg')] bg-cover bg-center opacity-15"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <div className="mb-8 inline-block">
           <img
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+            src="/public/assets/image.jpg"
             alt="Mamadou THIAM"
             className="w-48 h-48 rounded-full object-cover border-4 border-blue-500 shadow-2xl mx-auto"
           />
@@ -22,7 +22,7 @@ export default function Hero() {
           Développeur MERN Stack | Ingénieur Cloud & DevOps
         </p>
 
-        <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-blue-400 mb-6 font-light">
           Administrateur Systèmes | Analyste de données
         </p>
 

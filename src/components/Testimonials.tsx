@@ -2,26 +2,20 @@ import { Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Abdoulaye Diop',
-    role: 'Chef de Projet, Sonatel',
-    content: 'Mamadou a fait preuve d\'une grande compétence technique lors de son stage chez nous. Son travail sur le back-office de Wesalo a été exemplaire. Il est autonome, rigoureux et propose toujours des solutions innovantes.',
+    name: 'M. Ndiaye',
+    role: ' Directeur, SUNU_DOM ',
+    content: 'Une excellente collaboration ! M.THIAM a fait preuve d\'une grande rigueur technique et d\'une capacité à résoudre les problèmes rapidement.',
     rating: 5,
     image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300'
   },
   {
-    name: 'Fatou Sall',
-    role: 'Responsable Formation, Gomycode',
-    content: 'En tant qu\'instructeur, Mamadou excelle dans la transmission de connaissances. Il sait rendre les concepts complexes accessibles et motive ses apprenants à se dépasser. Un véritable atout pour notre équipe pédagogique.',
+    name: 'M. Ndiaye',
+    role: 'Fondateur, IND Location',
+    content: 'J\'ai été impressionné par la qualité du code et l\'attention aux détails, notamment sur la partie UI/UX. Le projet a été livré dans les délais.',
     rating: 5,
     image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300'
   },
-  {
-    name: 'Moussa Kane',
-    role: 'Directeur Technique, StartUp Tech',
-    content: 'J\'ai fait appel à Mamadou pour le développement de notre plateforme de candidature. Résultat impeccable, respect des délais et communication fluide. Je recommande vivement ses services.',
-    rating: 5,
-    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300'
-  }
+
 ];
 
 export default function Testimonials() {
@@ -35,7 +29,7 @@ export default function Testimonials() {
           Ce que disent mes clients et collaborateurs
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
